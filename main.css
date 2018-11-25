@@ -1,39 +1,40 @@
 body {
   background-color: violet
 }
+h3{
+  display: block;
+  text-align: center;
+  position: static;
+  padding-left: 50px;
+}
 #logo {
-  padding: 0;
   float: left;
-  margin-right: 5px
 }
-div h3{
-  display: block;
-  vertical-align: baseline;
+/* #header ul {
+  height:100px;
+  display: inline-block;
+  margin: 0px;
+  text-align: center;
+  padding-left: 80px;
 }
-#nav {
-  position: relative;
-}
-#nav ul {
-  height: 108px;
-  margin: auto;
-}
-#nav ul li a{
-  display: block;
-  float: left;
+#header ul li {
+  display: inline-block;
   font-size: 20px;
   font-family: serif;
-  margin: 50px 35px;
+  margin: 50px 40px;
   font-weight: 400;
   text-decoration: none;
-}
-ul {
-  list-style: none;
-  overflow: hidden;
-  left: 50%;
-}
-li {
-  line-height: 18px;
-}
-h3 {
+  width: fit-content;
+} */
+#header {
+  width: 100%;
+  display: inline-block;
   text-align: center;
+}
+.nav {
+  display: inline;
+  width: 100%;
+  margin: -50px 0 0 -100px;
+  clear: both;
+  overflow: hidden;
 }
