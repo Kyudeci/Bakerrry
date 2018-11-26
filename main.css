@@ -10,22 +10,6 @@ h3{
 #logo {
   float: left;
 }
-/* #header ul {
-  height:100px;
-  display: inline-block;
-  margin: 0px;
-  text-align: center;
-  padding-left: 80px;
-}
-#header ul li {
-  display: inline-block;
-  font-size: 20px;
-  font-family: serif;
-  margin: 50px 40px;
-  font-weight: 400;
-  text-decoration: none;
-  width: fit-content;
-} */
 #header {
   width: 100%;
   display: inline-block;
@@ -37,4 +21,7 @@ h3{
   margin: -50px 0 0 -100px;
   clear: both;
   overflow: hidden;
+}
+.col {
+  border-style: groove;
 }
