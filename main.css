@@ -1,5 +1,5 @@
 body {
-  background-color: violet
+  background-color: violet;
 }
 h3{
   display: block;
@@ -22,6 +22,9 @@ h3{
   clear: both;
   overflow: hidden;
 }
-.col {
-  border-style: groove;
+.card {
+  background-color: transparent
+}
+.card-body {
+  background-color: white
 }
