@@ -28,3 +28,13 @@ h3{
 .card-body {
   background-color: white
 }
+#unlock {
+  height: 286px;
+  width: 286px;
+}
+#unlock-btn {
+  display: none;
+}
+#unlock-btn2 {
+  display: none;
+}
