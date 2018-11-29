@@ -1,5 +1,6 @@
 body {
   background-color: violet;
+  margin: 5px;
 }
 h3{
   display: block;
@@ -37,4 +38,11 @@ h3{
 }
 #unlock-btn2 {
   display: none;
+}
+/* Cookie.html */
+#options {
+  list-style-type: none;
+}
+.col {
+  margin-right: 20px;
 }
