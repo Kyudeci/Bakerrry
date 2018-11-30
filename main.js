@@ -1,3 +1,4 @@
+//Index.html portion
 let codeA = document.getElementById("secret");
 let submit = document.getElementById("submit");
 let imgUnlock = document.getElementById("unlock");
@@ -26,3 +27,4 @@ function unknown() {
 }
 submit.addEventListener("click", search)
 btnUnlock2.addEventListener("click", unknown)
+//Cookie.html portion
