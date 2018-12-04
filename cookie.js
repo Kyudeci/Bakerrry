@@ -18,7 +18,25 @@ suggest.addEventListener("keyup", function(event) {
 });
 //Rework into OOP-- in essence create a class
 class Cookie {
-  constructor() {
-
+  constructor(type, icing, amount) {
+    this.type = type; //string
+    this.icing = icing; //boolean
+    this.amount = amount; //integer
   }
+  price() {
+    this.price = 1.00
+    this.add = 0
+    this.total = this.amount * this.price
+    if (this.icing == true) {
+      this.price += 0.50
+    } else {
+      this.price += 0
+    }
+    this.total += this.add
+    console.log(this.total);
+    }
 }
+//Question: can this information be output to google sheets?
+let cookie1 = new Cookie("chocolate", false, 3);
+let cookie2 = new Cookie("chocolate", true, 3);
+let cookie3 = new Cookie("")
