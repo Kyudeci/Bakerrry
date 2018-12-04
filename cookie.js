@@ -1,5 +1,5 @@
 let suggest = document.getElementById("suggest");//input
-let submit2 = document.getElementById("submit2");//sumit button
+let submit2 = document.getElementById("submit2");//submit button
 
 function order() {
   let para = document.createElement("p");//paragraph element
@@ -16,3 +16,9 @@ suggest.addEventListener("keyup", function(event) {
     document.getElementById("submit2").click();
   }
 });
+//Rework into OOP-- in essence create a class
+class Cookie {
+  constructor() {
+
+  }
+}
