@@ -28,9 +28,9 @@ class Cookie {
     this.add = 0
     this.total = this.amount * this.price
     if (this.icing == true) {
-      this.add b  += 0.50
+      this.add += 0.50
     } else {
-      this.add b  += 0
+      this.add += 0
     }
     this.total += this.add
     console.log(this.total);
