@@ -28,9 +28,9 @@ class Cookie {
     this.add = 0
     this.total = this.amount * this.price
     if (this.icing == true) {
-      this.price += 0.50
+      this.add b  += 0.50
     } else {
-      this.price += 0
+      this.add b  += 0
     }
     this.total += this.add
     console.log(this.total);
@@ -39,4 +39,4 @@ class Cookie {
 //Question: can this information be output to google sheets?
 let cookie1 = new Cookie("chocolate", false, 3);
 let cookie2 = new Cookie("chocolate", true, 3);
-let cookie3 = new Cookie("")
+let cookie3 = new Cookie(suggest.value,true, 5)
