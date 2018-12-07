@@ -10,12 +10,12 @@ function order() {
   para.classList.add("typewriter");
   suggest.value = "";
 }
-submit2.addEventListener("click", order);
-suggest.addEventListener("keyup", function(event) {
-  if (event.keyCode === 13) {
-    document.getElementById("submit2").click();
-  }
-});
+// submit2.addEventListener("click", order);
+// suggest.addEventListener("keyup", function(event) {
+//   if (event.keyCode === 13) {
+//     document.getElementById("submit2").click();
+//   }
+// });
 //Rework into OOP-- in essence create a class
 class Cookie {
   constructor(type, icing, amount) {
@@ -39,4 +39,3 @@ class Cookie {
 //Question: can this information be output to google sheets?
 let cookie1 = new Cookie("chocolate", false, 3);
 let cookie2 = new Cookie("chocolate", true, 3);
-let cookie3 = new Cookie(suggest.value,true, 5)
